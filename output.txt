@@ -1,0 +1,10 @@
+sb.AppendLine($"{"".PadBy(0)}namespace HelloWorld");
+sb.AppendLine($"{"".PadBy(0)}{{");
+sb.AppendLine($"{"".PadBy(1)}class Program");
+sb.AppendLine($"{"".PadBy(1)}{{");
+sb.AppendLine($"{"".PadBy(2)}static void Main(string[] args)");
+sb.AppendLine($"{"".PadBy(2)}{{");
+sb.AppendLine($"{"".PadBy(3)}Console.WriteLine(\"Hello World!\");");
+sb.AppendLine($"{"".PadBy(2)}}}");
+sb.AppendLine($"{"".PadBy(1)}}}");
+sb.AppendLine($"{"".PadBy(0)}}}");
